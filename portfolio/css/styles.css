@@ -97,7 +97,6 @@ nav {
   padding: 4rem 1rem;
 }
 
-
 nav ul {
   margin: 0;
   padding: 0;
@@ -143,6 +142,22 @@ nav [class*="fa-"]:hover {
 .button:hover {
     color: white;
     background-color: var(--azul-escuro);
+}
+
+/* contato section */
+.section-contato {
+    background-color: var(--azul-escuro);
+}
+
+#contato {
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 4rem 0;
+}
+
+#contato p:last-child {
+    margin-top: 3rem;
 }
 
 /* footer parte */
