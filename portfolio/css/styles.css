@@ -144,9 +144,61 @@ nav [class*="fa-"]:hover {
     background-color: var(--azul-escuro);
 }
 
+/* projects section */
+.section-projetos {
+    background-color: var(--azul-escuro);
+}
+
+#projects {
+    padding: 4rem 1rem;
+}
+
+#projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: calc(2.5rem * 1.5);
+}
+
+#projects h3 {
+    color: var(--orange);
+}
+
+#projects h4 {
+    font-size: 1rem;
+    font-family: var(--mono);
+    margin: 0;
+}
+
+.blackbox {
+    padding: 1rem;
+    border-radius: 10px;
+    color: white;
+    background-color: var(--black);
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+#projects ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+#projects img {
+    margin: 2rem 0 4rem 0;
+    padding: 1rem;
+    border-left: 1px solid var(--orange);
+    border-top: 1px solid var(--orange);
+    border-radius: 25px;
+}
+
 /* contato section */
 .section-contato {
-    background-color: var(--azul-escuro);
+    background-color: var(--terra);
 }
 
 #contato {
@@ -161,7 +213,6 @@ nav [class*="fa-"]:hover {
 }
 
 /* footer parte */
-
 footer {
     text-align: center;
     padding: 4rem 0;
