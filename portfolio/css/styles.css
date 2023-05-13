@@ -144,25 +144,25 @@ nav [class*="fa-"]:hover {
     background-color: var(--azul-escuro);
 }
 
-/* projects section */
+/* projetos section */
 .section-projetos {
     background-color: var(--azul-escuro);
 }
 
-#projects {
+#projetos {
     padding: 4rem 1rem;
 }
 
-#projects h2 {
+#projetos h2 {
     font-size: 2.5rem;
     margin-bottom: calc(2.5rem * 1.5);
 }
 
-#projects h3 {
+#projetos h3 {
     color: var(--orange);
 }
 
-#projects h4 {
+#projetos h4 {
     font-size: 1rem;
     font-family: var(--mono);
     margin: 0;
@@ -177,7 +177,7 @@ nav [class*="fa-"]:hover {
     line-height: 1.5;
 }
 
-#projects ul {
+#projetos ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -188,7 +188,7 @@ nav [class*="fa-"]:hover {
     font-size: 1rem;
 }
 
-#projects img {
+#projetos img {
     margin: 2rem 0 4rem 0;
     padding: 1rem;
     border-left: 1px solid var(--orange);
@@ -227,4 +227,52 @@ footer ul {
     justify-content: center;
     gap: 3rem;
     font-size: 3rem;
+}
+
+@media (min-width: 800px) {
+    article {
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+    }
+    #projetos {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    #projetos img {
+        grid-column: 1/6;
+        grid-row: 1/2;
+    }
+    .text {
+        grid-column: 5/11;
+        grid-row: 1/2;
+        order: 2;
+        text-align: right;
+    }
+    #projetos ul {
+        justify-content: flex-end;
+    }
+    #projetos .reverse .text {
+        grid-column: 1/7;
+        order: 2;
+        text-align: left;
+    }
+    #projetos .reverse img {
+        grid-column: 6/11;
+        grid-row: 1/2;
+    }
+    #projetos .reverse ul {
+        justify-content: flex-start;
+    }
+}
+
+@media (min-width: 850px) {
+    nav {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    nav li:first-child {
+        flex-basis: auto;
+        text-align: left;
+        margin-right: auto;
+    }
 }
