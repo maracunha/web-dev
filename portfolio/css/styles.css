@@ -64,7 +64,7 @@ a:hover {
   margin: 0 auto;
 }
 
-#intor p {
+#intro p {
   font-size: 1rem;
   line-height: 1.5;
 }
@@ -86,7 +86,7 @@ a:hover {
   font-size: 4rem;
 }
 
-/* Navegacão */
+/* Navegação */
 nav h1 a {
   font-family: var(--sans);
 }
@@ -144,7 +144,7 @@ nav [class*="fa-"]:hover {
     background-color: var(--azul-escuro);
 }
 
-/* projetos section */
+/* Projetos section */
 .section-projetos {
     background-color: var(--azul-escuro);
 }
