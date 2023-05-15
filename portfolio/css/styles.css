@@ -1,1 +1,29 @@
+/* Variáveis declaradas aqui - estas são as cores de nossas páginas, bem como as fontes. */
+:root {
+  /* Escolha cores:  https://color.adobe.com/explore */
+  --black: #2E2642;
+  --white: #D2D2D4;
+
+  --azul: #61B8FF;
+  --azul-m: #44A4F2;
+  --azul-escuro: #1E69A6;
+  --laranja: #F2AE44;
+  --terra: #A66A0D;
+
+  --font-size: 1.3rem;
+
+  /* Escolha fonts no google fonts: https://fonts.google.com/ */
+  --mono: "IBM Plex Mono", monospace;
+  --sans: "IBM Plex Sans", sans-serif;
+}
+
+/* border box model: https://css-tricks.com/box-sizing/ */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 
